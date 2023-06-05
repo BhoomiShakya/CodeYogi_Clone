@@ -1,0 +1,365 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+
+}
+
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#logos{
+    display: flex;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#side a{
+    color:rgb(179, 179, 179);
+    text-decoration: none;
+    margin: 0.5rem;
+    font-size:0.7rem;
+    letter-spacing: 3px;
+}
+#side a:hover{
+    color: white;
+    transition: 0.5s;
+}
+#side{
+    margin-top: 2.1rem;
+}
+section{
+    background-image: url("bg.png");
+    filter: brightness(70%);
+    background-position:center;
+	background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    text-align: center;
+}
+
+#heading1 h1{
+    color: white;
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+}
+#abc{
+   margin-top: 8rem;
+}
+#ab{
+    color:white;
+    letter-spacing: 2px;
+}
+
+#regis{
+    text-decoration: none;
+    background-color: rgb(191, 191, 191);
+    color: black;
+    padding: 1rem;
+    width: 5rem;
+    letter-spacing: 2px;
+}
+
+#regis:hover{
+    background-color:rgb(242, 242, 242);
+    transition: .5s;
+}
+
+#button2{
+    text-align: center;
+    background-color:rgb(191, 191, 191) ;
+    height: 20px;
+    width: 20px;
+    margin-left: 49.5%;
+    transform: rotate(90deg);
+    position: relative;
+  animation-name: example;
+  animation-duration:infinite;
+}
+#button2:hover{
+    background-color:rgb(242, 242, 242);
+    transition: .5s;
+}
+#do{
+    color: black;
+    text-decoration: none;
+    transform: rotate(90deg);
+}
+
+main{
+    margin-top: 8rem;
+    font-size: 16px;
+}
+
+main h2{
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.paras{
+    margin-left: 4rem;
+    margin: 2rem;
+    margin-top: 7rem;
+}
+
+#h2-st{
+    margin-top: 7rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    letter-spacing: 3px;
+}
+
+#upp , #down ,#next_upp, #next_down{
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+    gap:10px;
+    margin: 4rem;
+}
+#card1,#card3{
+margin-top: 0.7rem;
+}
+
+#h2-nd{
+    margin:0px;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+#next2{
+    background-color: black;
+    height: 26rem;
+    color: white;
+    display: flex;
+}
+#new{
+    margin: 1rem;
+    margin-top: 6.5rem;
+}
+#promo{
+    width: 46rem;
+    margin-top: -2rem;
+    height: 28rem;
+}
+#h2-rd{
+    font-size:20px;
+    letter-spacing: 3px;
+}
+#new a{
+    background-color:rgb(179, 179, 179);
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#new a:hover{
+    background-color:rgb(242, 242, 242);
+    transition: 0.4s;
+}
+
+.para{
+    margin: 3rem;
+}
+
+.h3_01{
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+#next4{
+    height: 20rem;
+    width:100%;
+    background-color:rgb(242, 242, 242);
+    text-align: center;
+}
+
+#h2_4th{
+    letter-spacing: 5px;
+    font-size: 16px;
+    padding-top: 4.5rem;
+    padding-bottom: 1rem;
+}
+
+#entry{
+    padding:0.8rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#next4 div label{
+    color:white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding:0.7rem ;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+#next4 div input{
+    margin-left: 4rem;
+}
+
+#next4 div label:hover{
+    background-color:rgb(115, 115, 115);
+    transition: .4s;
+}
+
+#sect{
+    display: flex;
+    margin-left: 35%;
+}
+
+#sect p{
+    margin-top: 0.2rem;
+    letter-spacing:0.5px;
+    font-size: 12px;
+    color: rgb(179, 179, 179);
+}
+
+.details{
+    display: flex;
+}
+.calls{
+    letter-spacing: 2px;
+    font-size: 13px;
+    color:black;
+}
+.num{
+    margin-top:-1rem;
+    font-size: 13px;
+}
+#threes{
+    margin-top: 0.7rem;
+}
+#contact{
+    display: flex;
+    margin: 5rem;
+    gap:10rem;
+    margin-left:22rem;
+}
+#two{
+    margin-top:-0.5rem;
+}
+#three{
+    margin-top: -1.1rem;
+}
+
+#next5{
+    display: flex;
+    justify-content: center;
+}
+#next5 div textarea{
+    padding: 0.78rem;
+    margin: 0.3rem;
+}
+#next5 div textarea:hover{
+    border:solid 0.5px  black;
+    transition: 1s;
+}
+#next5 div input{
+    padding:0.65rem;
+    margin: 0.3rem;
+}
+
+#next5 div input:hover{
+    border:solid 0.5px  black;
+    transition: 1s;
+}
+#spans{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    justify-content: left;
+    margin-left: 20.6rem;
+}
+#spans img{
+    height: 20px;
+    width:18px;
+    margin-top: 0.5rem;
+}
+
+#spans p{
+    font-size:0.7rem;
+    color:rgb(179, 179, 179) ;
+}
+
+#location div iframe{
+    width:100%;
+}
+
+.scroll{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.scroll span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgb(26,26,26,0.9);
+    width:100%;
+    height:100%;
+    transition:0.5s ease;
+    overflow: hidden;
+}
+
+.scroll:hover .scroll-bar{
+    height:8px;
+}
+
+.scroll-bar img{
+    height: 40px;
+    width: 60px;
+    /* margin-right: 1200px; */
+}
+
+#location .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: traslate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,50%);
+    margin-top:-85px;
+}
+
+.text h2{
+    width: 250px;
+    font-size:1.3rem;
+    color: white;
+  
+}
+#try p{
+    background-color:rgb(26,26,26,0.2);
+    height: 30px;
+    width: 30px;
+    color: white;
+    transform: rotate(90deg);
+    margin-left: 6.7rem;
+}
+
+footer img{
+    padding-top: 5rem;
+    margin-left: 45%;
+    padding-bottom: 0rem;
+}
+
+footer p{
+    text-align: center;
+    margin-left:3rem ;
+    font-size: 2rem;
+    margin-top: -2rem;
+}
